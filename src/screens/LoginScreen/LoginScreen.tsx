@@ -11,7 +11,7 @@ const content = {
 }
 
 export default function LoginScreen() {
-  const [signIn, setSignIn] = useState(true);
+  const [signIn, setSignIn] = useState(false);
 
   return (
     <div className='loginScreen'>
